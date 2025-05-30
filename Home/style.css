@@ -1,0 +1,557 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    min-height: 100vh;
+    background-color: #853D40;
+    background-image: url('../assests/BACKGROUND.png');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.custom-link {
+    font-size: 1.5rem;
+    color: whitesmoke;
+    text-decoration: underline;
+    margin: 10px;
+}
+
+.custom-link:hover {
+    color: lightgray;
+}
+
+
+/* -------HOME------- */
+
+
+/* Header */
+.Home-Sec1 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 3%;
+    font-family: serif;
+}
+
+.Home-Sec1 img {
+    width: 200px;
+    height: auto;
+}
+
+/* Main Title */
+.Home-Sec2 {
+    padding: 8% 5%;
+    text-align: center;
+}
+
+.Home-Sec2 h1 {
+    color: whitesmoke;
+    text-transform: capitalize;
+    font-size: 3rem;
+    font-weight: bold;
+}
+
+.para {
+    padding: 3% 0;
+}
+
+.para p {
+    font-size: 1.5rem;
+    color: white;
+    font-family: sans-serif;
+}
+
+.Shop-Button {
+    width: 250px;
+    height: 60px;
+    margin-top: 3%;
+    font-size: 1.2rem;
+    font-weight: bold;
+    background-color: transparent;
+    color: white;
+    border: 2px solid white;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+.Shop-Button:hover {
+    background-color: whitesmoke;
+    color: #853D40;
+}
+
+/* Description */
+.Home-Sec3 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    padding: 5%;
+    background-color: #853D40;
+    gap: 50px;
+    text-align: center;
+}
+
+.Home-Sec3 h1 {
+    color: white;
+    font-size: 2.5rem;
+}
+
+.Home-Sec3 p {
+    font-size: 1.2rem;
+    line-height: 1.6;
+    color: white;
+    text-align: center;
+    max-width: 600px;
+    margin-top: 20px;
+    font-family: sans-serif;
+    font-style: italic;
+}
+
+.About {
+    background-color: white;
+    color: #853D40;
+    padding: 60px 20px;
+    text-align: center;
+}
+
+.About h1 {
+    text-transform: capitalize;
+    font-size: 2.5rem;
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+}
+
+.About p {
+    text-transform: capitalize;
+    font-size: 1.5rem;
+    font-style: normal;
+    border-bottom: 1px solid black;
+}
+
+/* Products Info */
+.Home-Sec4 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 30px;
+    padding: 60px 20px;
+    background-color: white;
+    text-align: center;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+}
+
+.feature {
+    flex: 1 1 250px;
+    max-width: 300px;
+    padding: 20px;
+}
+
+.feature img {
+    width: 100px;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    color: #853D40;
+    font-size: 1.8rem;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #853D40;
+    font-size: 1rem;
+}
+
+.Home-divider {
+    height: 40px;
+    background-color: white;
+}
+
+
+/* -------COLLECTION------- */
+
+
+/* Header */
+.Collection-Sec1 {
+    height: 50%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+    padding: 5% 3%;
+}
+
+.Collection-Sec1 img {
+    width: 200px;
+    height: auto;
+}
+
+/* Main Title */
+.Collection-Sec2 {
+    background-color: white;
+    color: #853D40;
+    padding: 70px 30px;
+    text-align: center;
+}
+
+.Collection-Sec2 h1 {
+    font-size: 48px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    border-top: 1px solid black;
+}
+
+.Collection-Sec2 p {
+    font-size: 22px;
+    border-bottom: 1px solid black;
+}
+
+/* Products Display */
+.Collection-Sec3 {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 60px 20px;
+    background-color: white;
+    border-top: 2px solid rgba(0, 0, 0, 0.2);
+    border-bottom: 2px solid rgba(0, 0, 0, 0.2);
+    border-radius: 20px;
+    text-align: center;
+}
+
+.feature {
+    flex: 1;
+    padding: 20px;
+    max-width: 300px;
+}
+
+.feature img {
+    width: 100%;
+    height: auto;
+    margin-bottom: 20px;
+}
+
+.feature h3 {
+    color: #853D40;
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.feature p {
+    color: #853D40;
+    font-size: 20px;
+}
+
+.Collection-divider {
+    height: 40px;
+    background-color: white;
+}
+
+/* Form */
+.Collection-Sec4 {
+    display: flex;
+    justify-content: space-between;
+    padding: 60px 20px;
+    background-color: #853D40;
+    color: white;
+    align-items: center;
+    gap: 25%;
+}
+
+.Collection-Sec4 h1 {
+    font-size: 46px;
+    margin-bottom: 10px;
+}
+
+.Collection-Sec4 p {
+    font-size: 26px;
+    font-family: sans-serif;
+}
+
+.checkout-form {
+    width: 100%;
+    max-width: 500px;
+    background-color: white;
+    padding: 20px;
+    border-radius: 8px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+}
+
+.row {
+    display: flex;
+    gap: 10px;
+    margin-bottom: 15px;
+}
+
+input,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    font-size: 16px;
+}
+
+.Submit-Button {
+    background-color: white;
+    color: #853D40;
+    padding: 12px 20px;
+    font-size: 18px;
+    border: none;
+    cursor: pointer;
+    border-radius: 8px;
+    width: 100%;
+    transition: background-color 0.3s ease;
+}
+
+.Submit-Button:hover {
+    background-color: #f4f4f4;
+}
+
+/* Page Footer */
+footer {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #853D40;
+    padding: 20px;
+    color: white;
+    border-top: 1px solid white;
+}
+
+footer p {
+    font-size: 1.2rem;
+    margin-bottom: 10px;
+}
+
+footer div a i {
+    font-size: 2rem;
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+    transition: color 0.3s ease;
+}
+
+footer div a i:hover {
+    color: lightgray;
+}
+
+/* ----------- RESPONSIVE DESIGN ------------- */
+
+/* Tablets */
+@media (max-width: 992px) {
+    .Home-Sec1 img {
+        width: 150px;
+    }
+
+    .Home-Sec2 h1 {
+        font-size: 2.5rem;
+    }
+
+    .Home-Sec3 {
+        flex-direction: column;
+        gap: 30px;
+        text-align: center;
+    }
+
+    .Home-Sec4 {
+        text-align: center;
+    }
+
+    .Shop-Button {
+        width: 200px;
+        height: 50px;
+    }
+
+    footer {
+        display: block;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px) {
+    .Collection-Sec1 {
+        text-align: center;
+    }
+
+    .Collection-Sec3 {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .Collection-Sec4 {
+        flex-direction: column;
+        text-align: center;
+        gap: 20px;
+    }
+
+    .checkout-form {
+        width: 90%;
+    }
+
+    .Collection-Sec2 h1 {
+        font-size: 36px;
+    }
+
+    .Collection-Sec2 p {
+        font-size: 18px;
+    }
+
+    .feature h3 {
+        font-size: 20px;
+    }
+
+    .feature p {
+        font-size: 16px;
+    }
+}
+
+/* Mobiles */
+@media (max-width: 600px) {
+    .custom-link {
+        font-size: 1.2rem;
+    }
+
+    .Home-Sec2 h1 {
+        font-size: 2rem;
+    }
+
+    .para p {
+        font-size: 1.2rem;
+    }
+
+    .Home-Sec3 p {
+        font-size: 1rem;
+    }
+
+    .About h1 {
+        font-size: 2rem;
+    }
+
+    .About p {
+        font-size: 1rem;
+    }
+
+    .Shop-Button {
+        width: 180px;
+        height: 45px;
+        font-size: 1rem;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer div a i {
+        font-size: 1.5rem;
+    }
+}
+
+@media (max-width: 500px) {
+
+    .Home-Sec1 img {
+        width: 100px;
+    }
+
+    .Collection-Sec1 img {
+        width: 100px;
+    }
+
+    .custom-link {
+        font-size: 24px;
+    }
+
+    .Collection-Sec2 h1 {
+        font-size: 30px;
+    }
+
+    .Collection-Sec2 p {
+        font-size: 16px;
+    }
+
+    .feature img {
+        text-align: center;
+        width: 100px;
+    }
+
+    .feature h3 {
+        font-size: 18px;
+    }
+
+    .feature p {
+        font-size: 14px;
+    }
+
+    .Submit-Button {
+        font-size: 16px;
+    }
+
+    footer {
+        flex-direction: column;
+        text-align: center;
+    }
+
+    footer div a i {
+        font-size: 1.5rem;
+    }
+
+    footer p {
+        padding-bottom: 5px;
+    }
+}
+
+@media (max-width: 400px) {
+    .Home-Sec1 img {
+        width: 100px;
+    }
+
+    .custom-link {
+        font-size: 1rem;
+    }
+
+    .feature img {
+        text-align: center;
+        width: 95px;
+    }
+}
+
+@media (max-width: 320px) {
+
+    .Home-Sec1 img {
+        width: 90px;
+    }
+
+    .custom-link {
+        font-size: 1rem;
+    }
+
+    .About h1 {
+        font-size: 28px;
+    }
+
+    .Collection-Sec4 h1 {
+        font-size: 28px;
+    }
+
+    .Collection-Sec4 P {
+        font-size: 20px;
+    }
+
+    footer p {
+        font-size: 1rem;
+        padding-bottom: 5px;
+    }
+}
